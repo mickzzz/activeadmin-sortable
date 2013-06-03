@@ -6,8 +6,9 @@ Gem::Specification.new do |s|
   s.description = "JQuery Sortable + ActiveAdmin"
   s.authors     = ["Bharat Gupta"]
   s.email       = 'bindassbharat311@gmail.com'
-  s.files       = ["lib/activeadmin-sortable.rb"]
+  s.files       = ["lib/activeadmin-sortable.rb", "app/assets/"]
   s.homepage    = 'http://vinsol.com/'
   
   s.add_dependency 'activeadmin', '~> 0.6'
+  s.add_dependency 'railties', '~> 3.1'
 end
