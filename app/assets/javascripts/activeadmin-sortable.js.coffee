@@ -1,5 +1,3 @@
-alert("hello")
-
 jQuery ($) ->
   $(".handle").closest("tbody").activeAdminSortable();
   
