@@ -1,4 +1,6 @@
 module ActiveAdmin
-  class Engine < ::Rails::Engine
+  module Sortable
+    class Engine < ::Rails::Engine
+    end
   end
 end
